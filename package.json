@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1",
+    "pactum": "^3.7.5"
+  },
+  "scripts": {
+    "test-login": "mocha scripts/login.js",
+    "test-user": "mocha scripts/user.js"
+  }
+}
